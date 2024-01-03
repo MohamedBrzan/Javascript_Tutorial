@@ -1,1 +1,1 @@
-console.log('hello world');
+//* Variables ( var - let - const )
