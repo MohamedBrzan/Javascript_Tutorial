@@ -4,20 +4,20 @@
 
 //* let ( block scope )
 
-// if (true) {
-//   let x = 11;
-//   console.log(x, 'from if statement');
-// }
+if (true) {
+  let x = 11;
+  console.log(x, 'from if statement');
+}
 
-// console.log(x, 'outside if statement');
+console.log(x, 'outside if statement');
 
-// let data = 5;
+let data = 5;
 
-// console.log(data);
+console.log(data);
 
-// data = 88;
+data = 88;
 
-// console.log(data);
+console.log(data);
 
 //* const ( block scope )
 
