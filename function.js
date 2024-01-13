@@ -29,4 +29,86 @@ function arg(param1) {
   console.log(arguments);
 }
 
-arg(66);
+// arg(66);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//* Rest parameters
+
+
+
+function rest(...args) {
+ console.log(args)
+}
+
+
+rest(1,'string',false,555,true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//* Closures
+
+function closure() {
+  let x = 22;
+  let text = 'this is the text string';
+  function nestedClosure() {
+    console.log(x);
+    console.log(text);
+  }
+
+  nestedClosure();
+}
+
+// closure();
