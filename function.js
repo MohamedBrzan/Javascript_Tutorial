@@ -15,10 +15,18 @@ const factorial = function fac(num) {
   return num < 5 ? 1 : fac(num - 1);
 };
 
-console.log(factorial(6));
+// console.log(factorial(6));
 
 //* logs
 // 6
 // 5
 // 4
 // 1
+
+//* arguments
+
+function arg(param1) {
+  console.log(arguments);
+}
+
+arg(66);
