@@ -1,4 +1,3 @@
-//* freeze
-//* isFrozen
-
-
+//* this
+//* get
+//* set
