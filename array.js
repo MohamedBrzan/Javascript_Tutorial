@@ -1,6 +1,6 @@
-let data = [45, 56, 77, 88, 99];
-let anotherData = [1, 2, 3, 4, 5, 6];
+let data = [45, 77, 200, 88, 200];
 
-const merge = data.concat(anotherData);
+const findResult = data.findLastIndex((value) => value >= 400);
 
-console.log(merge);
+console.log(findResult);
+ 
