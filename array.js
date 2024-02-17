@@ -14,7 +14,7 @@ const reduceRightRes = productsPrices.reduceRight(
   }
 );
 
-console.log('reduceRightRes => ', reduceRightRes);
+// console.log('reduceRightRes => ', reduceRightRes);
 
 // let initialValue = shipping + fees;
 
@@ -23,3 +23,18 @@ console.log('reduceRightRes => ', reduceRightRes);
 // }
 
 // console.log('initial => ', initialValue);
+
+//* Slice - Splice
+
+let arr = ['ali', 'samah', 'doaa', 'manar', 'waleed'];
+
+// const slice = arr.slice(0,-2);
+
+// console.log(slice);
+
+const splice = arr.splice(0, 3, 'test', 44, 556, function () {
+  return 'hello';
+});
+
+console.log('splice => ', splice);
+console.log('original => ', arr);
